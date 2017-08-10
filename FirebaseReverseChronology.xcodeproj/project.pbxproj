@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		329EF57D4E9ECF3E8872F7AB /* Pods_FirebaseReverseChronology.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 118B35F22A827EFF06156A38 /* Pods_FirebaseReverseChronology.framework */; };
 		9EC36BC21F3C5D8900AF4168 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC36BC11F3C5D8900AF4168 /* AppDelegate.swift */; };
 		9EC36BC41F3C5D8900AF4168 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC36BC31F3C5D8900AF4168 /* ViewController.swift */; };
 		9EC36BC71F3C5D8900AF4168 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EC36BC51F3C5D8900AF4168 /* Main.storyboard */; };
 		9EC36BC91F3C5D8900AF4168 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EC36BC81F3C5D8900AF4168 /* Assets.xcassets */; };
 		9EC36BCC1F3C5D8900AF4168 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EC36BCA1F3C5D8900AF4168 /* LaunchScreen.storyboard */; };
+		9EC36BD41F3C5DA900AF4168 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC36BD31F3C5DA900AF4168 /* CollectionViewCell.swift */; };
+		9EC36BD81F3C5DF000AF4168 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9EC36BD71F3C5DF000AF4168 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		118B35F22A827EFF06156A38 /* Pods_FirebaseReverseChronology.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseReverseChronology.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D256AFB51B479A6DE872F1D /* Pods-FirebaseReverseChronology.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseReverseChronology.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseReverseChronology/Pods-FirebaseReverseChronology.release.xcconfig"; sourceTree = "<group>"; };
 		9EC36BBE1F3C5D8900AF4168 /* FirebaseReverseChronology.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseReverseChronology.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EC36BC11F3C5D8900AF4168 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EC36BC31F3C5D8900AF4168 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,9 @@
 		9EC36BC81F3C5D8900AF4168 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9EC36BCB1F3C5D8900AF4168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9EC36BCD1F3C5D8900AF4168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EC36BD31F3C5DA900AF4168 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		9EC36BD71F3C5DF000AF4168 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C52FC548D6FD71D3A7E845A9 /* Pods-FirebaseReverseChronology.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseReverseChronology.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseReverseChronology/Pods-FirebaseReverseChronology.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				329EF57D4E9ECF3E8872F7AB /* Pods_FirebaseReverseChronology.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C3516CC383CAB64BF0039A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C52FC548D6FD71D3A7E845A9 /* Pods-FirebaseReverseChronology.debug.xcconfig */,
+				1D256AFB51B479A6DE872F1D /* Pods-FirebaseReverseChronology.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9EC36BB51F3C5D8900AF4168 = {
 			isa = PBXGroup;
 			children = (
 				9EC36BC01F3C5D8900AF4168 /* FirebaseReverseChronology */,
 				9EC36BBF1F3C5D8900AF4168 /* Products */,
+				1C3516CC383CAB64BF0039A1 /* Pods */,
+				BD0F790371AC2EC6FF53E4B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +80,18 @@
 				9EC36BC81F3C5D8900AF4168 /* Assets.xcassets */,
 				9EC36BCA1F3C5D8900AF4168 /* LaunchScreen.storyboard */,
 				9EC36BCD1F3C5D8900AF4168 /* Info.plist */,
+				9EC36BD31F3C5DA900AF4168 /* CollectionViewCell.swift */,
+				9EC36BD71F3C5DF000AF4168 /* GoogleService-Info.plist */,
 			);
 			path = FirebaseReverseChronology;
+			sourceTree = "<group>";
+		};
+		BD0F790371AC2EC6FF53E4B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				118B35F22A827EFF06156A38 /* Pods_FirebaseReverseChronology.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9EC36BD01F3C5D8900AF4168 /* Build configuration list for PBXNativeTarget "FirebaseReverseChronology" */;
 			buildPhases = (
+				E5CFE33E26C1A3578F931C98 /* [CP] Check Pods Manifest.lock */,
 				9EC36BBA1F3C5D8900AF4168 /* Sources */,
 				9EC36BBB1F3C5D8900AF4168 /* Frameworks */,
 				9EC36BBC1F3C5D8900AF4168 /* Resources */,
+				A84DCBF63503AE53DCFAFB9C /* [CP] Embed Pods Frameworks */,
+				1D04280FEE017CAECEB3D397 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,12 +158,71 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EC36BCC1F3C5D8900AF4168 /* LaunchScreen.storyboard in Resources */,
+				9EC36BD81F3C5DF000AF4168 /* GoogleService-Info.plist in Resources */,
 				9EC36BC91F3C5D8900AF4168 /* Assets.xcassets in Resources */,
 				9EC36BC71F3C5D8900AF4168 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D04280FEE017CAECEB3D397 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseReverseChronology/Pods-FirebaseReverseChronology-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A84DCBF63503AE53DCFAFB9C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseReverseChronology/Pods-FirebaseReverseChronology-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseReverseChronology/Pods-FirebaseReverseChronology-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5CFE33E26C1A3578F931C98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirebaseReverseChronology-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9EC36BBA1F3C5D8900AF4168 /* Sources */ = {
@@ -139,6 +231,7 @@
 			files = (
 				9EC36BC41F3C5D8900AF4168 /* ViewController.swift in Sources */,
 				9EC36BC21F3C5D8900AF4168 /* AppDelegate.swift in Sources */,
+				9EC36BD41F3C5DA900AF4168 /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +354,7 @@
 		};
 		9EC36BD11F3C5D8900AF4168 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C52FC548D6FD71D3A7E845A9 /* Pods-FirebaseReverseChronology.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9CV8MBD695;
@@ -274,6 +368,7 @@
 		};
 		9EC36BD21F3C5D8900AF4168 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D256AFB51B479A6DE872F1D /* Pods-FirebaseReverseChronology.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9CV8MBD695;

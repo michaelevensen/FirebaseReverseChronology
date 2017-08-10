@@ -1,0 +1,6 @@
+framework module Pods_FirebaseReverseChronology {
+  umbrella header "Pods-FirebaseReverseChronology-umbrella.h"
+
+  export *
+  module * { export * }
+}
